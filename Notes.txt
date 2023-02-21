@@ -1,0 +1,17 @@
+﻿
+
+
+we can create a tread by using :  std:std::thread ThreadName (Calling_Function_Namw)
+
+we can join a thread by calling ThreadName .join() function
+
+we can check if a thread is joinable or not by checking ThreadName.joinable()
+
+once a tread is in the joinable state is must be join or detach
+
+join function stops the execution of  tha calling thread and then passes the execution to the joined thread
+
+after joined thread  execution is done  it again returns the execution to the callign thread
+
+join () - it pauses the main execution
+Detach ()- it does the execution in parallel with the main thread 
